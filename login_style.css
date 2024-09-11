@@ -1,0 +1,230 @@
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  /* background-color: aliceblue; */
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+  padding: 20px;
+}
+.menu-bar {
+    display: none;
+}
+
+.navbar ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.navbar ul li a:hover {
+    color: #ff523b;
+}
+
+
+/* account page ---------------------------------- */
+
+    .row {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+
+    .col-1 img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .account-page {
+        padding: 50px;
+        background: radial-gradient(#fff, #d6e7ed);
+    }
+
+    .form-container {
+        background: white;
+        width: 300px;
+        height: 400px;
+        position: relative;
+        text-align: center;
+        padding: 20px 0;
+        margin: auto;
+        box-shadow: 0 0 20px 0px rgba(0,0,0,1);
+
+
+    }
+
+    .form-container span {
+        font-weight: bold;
+        padding: 0 10px;
+        color: #555;
+        cursor: pointer;
+        width: 100px;
+        display: inline-block;
+    }
+
+    .form-btn {
+        display: inline-block;
+    }
+
+    .btn {
+        display: inline-block;
+        background-color: #ff523b;
+        text-decoration: none;
+        color: #fff;
+        padding: 8px 30px;
+        margin: 30px 0;
+        border-radius: 30px;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+      }
+
+    .form-container form {
+        max-width: 300px;
+        padding: 0 20px;
+        position: absolute;
+        top: 130px;
+    }
+
+    form input {
+        width: 90%;
+        height: 30px;
+        margin: 10px 0;
+        padding: 0 10px;
+        border: 1px solid #ccc;
+    }
+
+    form .btn {
+        width: 100%;
+        border: none;
+        cursor: pointer;
+        margin: 10px;
+    }
+
+    .btn:hover {
+  background-color: #fff;
+  color: #ff523b;
+  border-color: #ff523b;
+}
+
+    form .btn:focus {
+        outline: none;
+
+    }
+
+
+
+   form a {
+    font-size: 12px;
+    text-decoration: none;
+   }
+
+   #indicator {
+    width: 100%;
+    border: none;
+    background: #ff523b;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(0px);
+   }
+
+/* ---------------------------------footer------------------------------- */
+.footer {
+  background-color: black;
+  color: #8a8a8a;
+  font-size: 14px;
+  padding: 60px 0 20px;
+  width: 100%;
+}
+
+.footer .footer-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.footer .footer p {
+  color: #8a8a8a;
+}
+
+.footer .footer h3 {
+  color: #fff;
+}
+
+.footer .footer-col-1, .footer .footer-col-2, .footer .footer-col-3, .footer .footer-col-4 {
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+
+.footer .footer-col-1 {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.footer .footer-col-2 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+}
+
+.footer .footer-col-2 img {
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+.footer .footer-col-3, .footer .footer-col-4 {
+  -ms-flex-preferred-size: 12%;
+      flex-basis: 12%;
+  text-align: center;
+}
+
+.footer ul {
+  list-style-type: none;
+  gap: 20px;
+}
+
+.footer .app-logo {
+  margin-top: 20px;
+}
+
+.footer .app-logo img {
+  width: 140px;
+}
+
+.footer .footer hr {
+  border: none;
+  background: #b5b5b5;
+  height: 2px;
+  margin: 20px 0;
+}
+
+.footer .Copyright {
+  text-align: center;
+}
+/*# sourceMappingURL=login_style.css.map */
